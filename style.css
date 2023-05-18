@@ -1,10 +1,11 @@
 body {
-    background-color: yellow;
+    background-color: black;
   }
 
 h1 {
-    color: #FF4500;
+    color: green;
     background-color: green;
+    text-align: center;
     
 }
 
