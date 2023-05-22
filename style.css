@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    
   }
 
 h1 {
@@ -9,18 +10,24 @@ h1 {
     
 }
 
+h2 {
+    font-family: 'Brush Script MT', cursive;
+    font-weight: lighter;
+}
+
 header * {
     display: inline;
 }
 
-header li {
-    margin: 30px;
+.backtrack {
+    margin-top: 10px;
 }
 
-header li a {
+header a {
     color:crimson;
-    text-align: center;
     text-decoration: none;
+    text-align: center;
+    margin: 100px;
 }
 
 .menu {
@@ -28,4 +35,18 @@ header li a {
     justify-content: center;
 }
 
+p {
+  color: white; 
+  padding: 0px 100px 90px;
+  text-align: center;
+}
 
+main {
+    color: white;
+    text-align: center;
+}
+
+.resized-img {
+    width: 50;
+    height: auto;
+  }
