@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', function() {
+
 
 const button = document.getElementById('button');
 
@@ -8,3 +10,5 @@ function change () {
 }
 
 button.addEventListener('click', change);
+
+});
